@@ -34,8 +34,4 @@ public class HomePage {
         webDriverWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//label[text()=\"Your Name :\"]")));
     }
 
-    public void waitForAddBackOfficePage() {
-        webDriverWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[text()=\"Add Customer \"]")));
-    }
-
 }
